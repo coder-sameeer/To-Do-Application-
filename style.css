@@ -42,6 +42,7 @@ body{
  height: 40px;
  width: 70px;
  border-radius: 10px;
+ font-size:15px;
  border:none;
  background:green;
  color: white;
@@ -80,7 +81,8 @@ span{
  color: white;
 }
 .delete-btn:hover{
- background:grey;
+ scale:1.2;
+transition-duration:.5s;
 }
 @media (max-width: 768px){
  .container .box{
