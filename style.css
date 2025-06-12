@@ -40,7 +40,7 @@ body{
 }
 #add{
  height: 40px;
- width: 70px;
+ width: 90px;
  border-radius: 10px;
  font-size:15px;
  border:none;
@@ -48,8 +48,9 @@ body{
  color: white;
 }
 #add:hover{
-background:#4A4A4A;
+background:rgb(92,90,90);
 color:white;
+cursor:pointer;
 }
 #list{
  color: black;
@@ -87,6 +88,7 @@ span{
 .delete-btn:hover{
  scale:1.2;
 transition-duration:.5s;
+cursor:pointer;
 }
 @media (max-width: 768px){
  .container .box{
