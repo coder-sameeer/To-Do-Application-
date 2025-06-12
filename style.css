@@ -47,6 +47,10 @@ body{
  background:green;
  color: white;
 }
+#add:hover{
+background:#4A4A4A;
+color:white;
+}
 #list{
  color: black;
  height:200px;
