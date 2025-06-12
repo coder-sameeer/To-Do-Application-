@@ -1,0 +1,92 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: poppins
+}
+body{
+ background:#E1F0FB;
+}
+.container{
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.container .box{
+ background: #3C3F40;
+ width: 70vw;
+ border-radius: 10px;
+ box-shadow: 5px 5px 10px;
+ height:auto;
+}
+.box h2{
+ text-align: center;
+ color: white;
+ margin: 30px;
+}
+.box .child{
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+ }
+#input{
+ text-align: center;
+ height: 40px;
+ width: 40vw;
+ border-radius: 10px;
+ border: none;
+ margin-bottom: 20px;
+ font-size: 20px;
+}
+#add{
+ height: 40px;
+ width: 70px;
+ border-radius: 10px;
+ border:none;
+ background:green;
+ color: white;
+}
+#list{
+ color: black;
+ height:200px;
+ overflow-y: auto;
+ margin-bottom: 10px;
+}
+#list li{
+ background:#6F6F6F;
+ padding: 10px;
+ height: auto;
+ display: flex;
+ justify-content:space-between;
+ list-style-type:none;
+ color:white;
+ border-radius: 10px;
+ margin: 10px;
+ display: flex;
+ align-items: center;
+}
+span{
+ margin-right: 10px;
+ font-size: 20px;
+ padding-left: 10px;
+ width: auto;
+}
+.delete-btn{
+ border-radius: 10px;
+ padding: 13px;
+ margin-right: 10px;
+ border: none;
+ background:#FF3A05;
+ color: white;
+}
+.delete-btn:hover{
+ background:grey;
+}
+@media (max-width: 768px){
+ .container .box{
+  width: 90vw;
+ }
+ #input{
+  width: 60vw;
+ }
+}
